@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
-import { Geist, Geist_Mono } from '@vercel/geist/font' // import correto da fonte
+import { GeistSans } from 'geist/font/sans'; // Importa a fonte 'Geist' (sans-serif)
+import { GeistMono } from 'geist/font/mono'; // Importa a fonte 'Geist Mono'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
-
 // Configurando as fontes
 const geist = Geist({ subsets: ['latin'] })
 const geistMono = Geist_Mono({ subsets: ['latin'] })
