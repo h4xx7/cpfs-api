@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
-import { GeistSans } from 'geist/font/sans'; // Importa a fonte 'Geist' (sans-serif)
-import { GeistMono } from 'geist/font/mono'; // Importa a fonte 'Geist Mono'
+import { GeistSans, GeistMono } from 'geist/font';
+// OU, dependendo da versão
+import { GeistSans } from 'geist/font/sans';
+import { GeistMono } from 'geist/font/mono';
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 // Configurando as fontes
